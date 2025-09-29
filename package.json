@@ -12,10 +12,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "express-validator": "^7.2.1",
-    "morgan": "^1.10.1"
+    "morgan": "^1.10.1",
+    "mysql2": "^3.15.1",
+    "nodemailer": "^7.0.6",
+    "nodemon": "^3.1.10",
+    "sequelize-typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10",
+    "@types/nodemailer": "^7.0.1",
+    "ts-node": "^10.9.2"
   }
 }
