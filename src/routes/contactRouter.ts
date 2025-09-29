@@ -5,6 +5,8 @@ import { ContactController } from '../controllers/ContactController'
 
 const router = Router()
 
+router.get('/requests', ContactController.getAllRequest)
+
 router.post('/new-contact', 
     body('fullName')
         .notEmpty().withMessage('El nombre es obligatorio'),
